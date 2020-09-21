@@ -1,0 +1,51 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-17T09:18:05.057Z",
+        "line": 14,
+        "name": "Adding Skill details",
+        "description": "",
+        "id": "employee-crud-operations;adding-skill-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "an skill table to add skill details",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "adding new skill with SkillId 110, skillName aws and details Amazon Service",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "It should add to skills table",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Employee CRUD Operations",
+    "description": "",
+    "id": "employee-crud-operations",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/employee.feature",
+    "tags": []
+  }
+]
